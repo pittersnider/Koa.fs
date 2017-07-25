@@ -6,7 +6,7 @@ Made using GNU Nano 2.8.5. :-)
 
 You can install the `koafs` through:  
   
-**A)** npm, using `npm install koafs --save`
+**A)** npm, using `npm install koafs --save`  
 **B)** yarn, using `yarn add koafs --save`
 
 ### How to use
