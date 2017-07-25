@@ -1,6 +1,6 @@
 {
   "name": "koafs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Send files using Koa2",
   "main": "index.js",
   "repository": "https://github.com/wofdwid/Koa.fs.git",
