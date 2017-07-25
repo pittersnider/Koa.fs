@@ -5,7 +5,7 @@ const transfer = (ctx, options) => {
 
     const { name, path, mimetype = "text/plain" } = options;
 
-    if (!!name || !!path) {
+    if (!name || !path) {
         throw new Error("File name or path are invalid or not informed yet.");
     }
 
