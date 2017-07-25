@@ -2,6 +2,13 @@
 Send files using Koa2.  
 Made using GNU Nano 2.8.5. :-)
 
+### How to install
+
+You can install the `koafs` through:  
+  
+**A)** npm, using `npm install koafs --save`
+**B)** yarn, using `yarn add koafs --save`
+
 ### How to use
   
 ```javascript
@@ -27,3 +34,7 @@ const handle = (ctx) => {
  */
 router.get("/download", handle);
 ```
+
+### Found a bug?
+
+Feel free to create a issue on this repository.
