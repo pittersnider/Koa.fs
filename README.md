@@ -20,7 +20,7 @@ const handle = (ctx) => {
 
     // Send the file to the client-side, A.K.A download.
     koafs(ctx, {
-	"name": 'how-to-use.txt',
+        "name": 'how-to-use.txt',
         "path": __dirname + '/README.md',
         "mimetype": 'text/markdown'
     });
